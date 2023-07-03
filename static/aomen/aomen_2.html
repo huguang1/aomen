@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>澳门金沙</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="/static/aomen/css/base.css">
+    <link rel="stylesheet" href="/static/aomen/css/aomen_2.css">
+</head>
+
+<body>
+<div class='js-header'>
+    <!---页头nav--->
+    <div class="w js-nav clearfix">
+        <ul class='clearfix'>
+            <li><a class='youhui active' href="#">网站首页</a></li>
+            <li><a class='kuaisu' href="#">线路检测</a></li>
+        </ul>
+        <ul class='clearfix'>
+            <li class='ml'><a class='baiwang' href="#">优惠中心</a></li>
+            <li class='ml'><a class='zaixian' href="#">充值中心</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--banner-->
+<div class='banner'>
+    <div class='search-box'>
+        <h3>会员账号<span>{{ account.account }}</span><a href="/static/aomen/aomen_3.html">【查看活动详情】</a></h3>
+    </div>
+    <!--3列表-->
+    <div class='lis_zong'>
+        <div class='lis'>
+            <p>电子总有效投注为<br><span>(18年7月份起)</span></p>
+            <b>{{ account.total_bet}}</b>
+        </div>
+        <div class='lis'>
+            <p>本月份新增有效投注为</p>
+            <b>{{ account.new_bet }}</b>
+        </div>
+        <div class='lis'>
+            <p>可领彩金为</p>
+            <b>{{ account.total_gold }}</b>
+        </div>
+    </div>
+    <!--活动说明-->
+    <div class='huodong'>
+        北京时间每月1号15:00-次月1号11:59开放申请 <span>＊请及时在活动时间内领取＊</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录会员账号 > 会员中心
+        > 我的优惠 即可&nbsp;&nbsp;<b>一键领取</b>
+    </div>
+
+</div>
+
+<!--底部-->
+<div class="footer">
+    <p>COPYRIGHT © 澳门金沙 RESERVED</p>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+tr,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html,
+body {
+    min-width: 1000px;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    font:12px/1.2  "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+}
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+  cursor:pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+
+
+legend {
+  color: #000;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* 版心宽度 */
+.w{
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+
+body{
+  background: #002174;
+  font-size:14px;
+  color:#fff;
+}
+
+
+
+/*导航栏*/
+
+.js-header {
+  background: #00195c;
+}
+
+.js-header .js-nav {
+  height: 110px;
+  background: url(../images/logo.jpg) no-repeat center;
+}
+
+.js-header ul {
+  height: 40px;
+  margin-top: 34px;
+}
+
+.js-nav ul:nth-child(1) {
+  float: left;
+}
+
+.js-nav ul:nth-child(2) {
+  float: right;
+}
+
+.js-nav ul li {
+  float: left;
+  margin-right: 40px;
+}
+
+.js-nav ul:nth-child(2) .ml {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.js-nav a {
+  display: block;
+  height: 40px;
+  padding-left: 36px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+
+.js-nav .youhui {
+  background: url(../images/ico1.png) no-repeat left center;
+  padding-left: 30px;
+  /* transition: all .3s; */
+}
+
+.js-nav .kuaisu {
+  background: url(../images/ico2.png) no-repeat left center;
+  /* transition: all .3s; */
+}
+
+.js-nav .baiwang {
+  background: url(../images/ico3.png) no-repeat left center;
+  /* transition: all .3s; */
+  padding-left: 30px;
+}
+
+.js-nav .zaixian {
+  background: url(../images/ico4.png) no-repeat left center;
+  /* transition: all .3s; */
+}
+
+.js-nav .active {
+  background: url(../images/ico1j.png) no-repeat left center;
+  color: #ffdb85;
+  background-position: 0px 5px;
+}
+
+.js-nav .youhui:hover {
+  background: url(../images/ico1j.png) no-repeat left center;
+  color: #ffdb85;
+  background-position: 0px 5px;
+  transition: all .3s;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+}
+
+.js-nav .kuaisu:hover {
+  background: url(../images/ico2j.png) no-repeat left center;
+  color: #ffdb85;
+  transition: all .3s;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+}
+
+.js-nav .baiwang:hover {
+  background: url(../images/ico3j.png) no-repeat left center;
+  color: #ffdb85;
+  transition: all .3s;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+}
+
+.js-nav .zaixian:hover {
+  background: url(../images/ico4j.png) no-repeat left center;
+  color: #ffdb85;
+  transition: all .3s;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+}

@@ -1,0 +1,122 @@
+
+/*banner*/
+.banner{
+  position:relative;
+  background:url('../images/bg.jpg') no-repeat center;
+  width:100%;
+  height:687px;
+  background-position: center;
+}
+.banner a img{
+  width:100%;
+  display: block;
+}
+.banner .search-box{
+  position: absolute;
+  left:calc(50% - 220px);
+  bottom:276px;
+  border:1px solid #d3f0fd;
+  width:476px;
+  height:60px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+  font-size:20px;
+  background:rgba(2, 9, 26,.7)}
+.banner .search-box h3{
+  font-weight: 500;
+  font-size:22px;
+}
+.search-box h3 span{
+  color:#ffd83a;
+  font-size:18px;
+  padding:0 30px;
+}
+.banner .search-box a{
+  color:#ffff00;
+  font-size:17px;
+  font-weight: 600;
+}
+
+/*banner中的3个列表*/
+.lis_zong{
+  position: absolute;
+  left:50%;
+  bottom:65px;
+  margin-left:-500px;
+  width:1010px;
+  text-align: center;
+}
+.lis_zong .lis{
+  background:url('../images/nK.png') no-repeat;
+  width:326px;
+  height:149px;
+  padding-top:22px;
+  float: left;
+  /* border:1px solid green; */
+}
+.lis_zong .lis:nth-child(2){
+  margin:0 15px;
+}
+.lis_zong .lis:nth-child(2) b,.lis_zong .lis:nth-child(3) b{
+  margin-top:25px;
+}
+.lis_zong .lis p{
+  font-size:18px;
+  line-height: 16px;
+}
+.lis_zong .lis p span{
+  font-size:14px;
+  color:#ffe400;
+}
+.lis_zong .lis b{
+  display: block;
+  font-size:44px;
+  color:#ffe400;
+  margin-top:10px;
+  letter-spacing:2px;
+}
+
+/*banner里的活动说明*/
+.banner .huodong{
+  position: absolute;
+  left:50%;
+  bottom:22px;
+  font-size:14px;
+  width:902px;
+  height:30px;
+  margin-left:-450px;
+  line-height: 28px;
+  border-radius: 15px;
+  background:rgba(0, 25, 89, .5);
+  border:1px solid #25a3e5;
+  text-align: center;
+  box-shadow: 0 0 3px #25a3e5;
+}
+.banner .huodong span{
+  color:#ffe900;
+}
+.banner .huodong b{
+  font-size:18px;
+  color:#dc0058;
+  text-shadow: 0 0 2px #fff;
+}
+
+
+
+
+
+/*底部*/
+.footer{
+  /* height: 78px; */
+  border-top:1px solid #223e84;
+  text-align: center;
+  line-height: 78px;
+  background: #002174;
+  font-size:12px;
+  color:#5978c6;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>澳门金沙</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="/static/aomen/css/base.css">
+    <link rel="stylesheet" href="/static/aomen/css/index.css">
+</head>
+
+<body>
+<div class='js-header'>
+    <!---页头nav--->
+    <div class="w js-nav clearfix">
+        <ul class='clearfix'>
+            <li><a class='youhui active' href="javascript:;">网站首页</a></li>
+            <li><a class='kuaisu' href="javascript:;">线路检测</a></li>
+        </ul>
+        <ul class='clearfix'>
+            <li class='ml'><a class='baiwang' href="javascript:;">充值中心</a></li>
+            <li class='ml'><a class='zaixian' href="javascript:;">优惠活动</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--banner-->
+<div class='banner'>
+    <form method="post" id="myform" name="myform1" action="/check" target="_self">
+        <div class='search-box'>
+            <img src="/static/aomen/images/sea-K.png" alt="search">
+            <h3>会员账号</h3>
+            <input type="text" placeholder="请输入会员帐号" id="account" name="account">
+            <input type="submit" id="submit" value="提交" />
+        </div>
+    </form>
+    <!--查看活动详情-->
+    <a href="/static/aomen/aomen_3.html" id='chakan'><img src="/static/aomen/images/btn-chakan.png" alt=""></a>
+</div>
+
+<!--底部-->
+<div class="footer">
+    <p>COPYRIGHT © 澳门金沙 RESERVED</p>
+</div>
+<script src="/static/js/common/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/aomen/js/index.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    layui.use('layer', function () {
+        var layer = layui.layer;
+        var value = {{ code }}
+        if ({{ code }}){
+            layer.msg('输入的用户名不存在');
+        }
+    });
+</script>
+</body>
+</html>
